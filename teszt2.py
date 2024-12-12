@@ -3,7 +3,7 @@ import random
 
 def veletlen():
     Rszamok = []
-    for i in range(20):
+    for _ in range(20):
         Rszamok.append(random.randrange(1,51))
     return Rszamok
 
